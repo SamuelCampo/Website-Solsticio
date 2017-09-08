@@ -1,0 +1,189 @@
+/*
+ Estilo principal para el Lading page "Solsticio"
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: arial;
+	font-size: 14px;
+}
+header{
+	background-image: url(../img/Header/Header.png);
+	background-size: cover;
+	padding:0 10%;
+}
+.card{
+	background: rgba(252,253,254,.7);
+	padding: 30px 20px;
+	text-align: center;
+}
+.card-info-five{
+	border:1px solid black;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: 576px) {
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+    max-width: 100%;
+  }
+}
+.d-block {
+  display: block !important;
+}
+.icon-header{
+	padding: 20px;
+}
+.icon-section-five{
+	position: absolute;
+	margin-top: -60px;
+	margin-left: -80px;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.text-great{
+	color: #a3cd60;
+}
+.text-center {
+  text-align: center !important;
+}
+.text-right {
+	text-align: right !important;
+}
+
+.mdl-button--raised.mdl-button--colored,
+.mdl-button--raised.mdl-button--colored:hover{
+	background-color: #a3cd60;
+}
+.mdl-button--raised.mdl-button--colored:focus{
+
+}
+.mdl-textfield--floating-label.is-focused 
+.mdl-textfield__label, 
+.mdl-textfield--floating-label.is-dirty .mdl-textfield__label, 
+.mdl-textfield--floating-label.has-placeholder .mdl-textfield__label{
+	color: white;
+}
+.mdl-textfield__label:after{
+	background-color: #a3cd60;
+}
+.mx-auto {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+.rounded {
+  border-radius: 0.25rem;
+}
+#end_section{
+	background-image: url('../img/Contacto/Background_Contactanos.png');
+	background-size: cover;
+	color: white;
+}
+#btn-header{
+	text-align: center;
+}
+#higtlights p{
+	font-size: 13pt;
+}
+#list-bank{
+	max-width: 70%;
+}
+#logo{
+	max-width: 70%;
+}
+#message-top{
+	background-color: #8fc42a;
+	color: white;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 10px 0px;	
+	text-align: center;
+}
+#section-five{
+	padding: 60px 0px;
+}
+#section-four{
+	padding: 40px 0px;
+	background-image: url('../img/Sol_Socio/Background_Socio.png');
+	background-size: cover;
+	color: white;
+}
+#section-header-two{
+	color: white;
+}
+#section-secundaria{
+	background-color: #fafafa;
+}
+#section-three{
+	background-color: #e7e9e9;
+	padding: 40px 0px;
+}
+#sole{
+	position: absolute;
+	top: -5px;
+	right: 60px;
+	width: 70px;
+	height: auto;
+}
